@@ -1,0 +1,37 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: red;
+		padding-left: 25%;
+}
+li {
+	float: left;
+
+}
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+li a:hover {
+	color: blue;
+}
+.text {
+	text-align: center;
+}
+.imagesize {
+	display: inline;
+}
+.body1 {
+	padding: 10px;
+}
+.bannerimage {
+	width: 100%;
+}
+.collapsebar {
+	min-width: 900px;
+}

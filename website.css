@@ -1,37 +1,80 @@
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: red;
-		padding-left: 25%;
-}
-li {
-	float: left;
 
-}
-li a {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 10px;
-	text-decoration: none;
-}
-li a:hover {
+.collapsebar li a:hover {
 	color: blue;
+	text-decoration: underline;
 }
 .text {
 	text-align: center;
 }
-.imagesize {
-	display: inline;
-}
 .body1 {
 	padding: 10px;
+	background-color: aqua;
 }
 .bannerimage {
+	max-width: 960px;
 	width: 100%;
+	margin: auto;
+	display: block;
+}
+.centering {
+	display: inline-block;
+	width: 100%; 
 }
 .collapsebar {
-	min-width: 900px;
+	background-color: red;
+	display: block;
+}
+.collapsebar li {
+	list-style: none;
+	text-align: center;
+	padding: 1rem;
+}
+.collapsebar li a {
+	color: white;
+	text-decoration: none;
+}
+.imagesize img{
+	display: block;
+	margin: auto;
+}
+
+@media screen and (min-width: 960px) {
+	.centering {
+		display: table;
+		table-layout: fixed;
+		width: 100%;
+	}
+	.collapsebar {
+		background-color: red;
+		display: table-row;
+		margin: 0;
+		padding: 0;
+	}
+	.collapsebar li {
+		list-style: none;
+		display: table-cell;
+		text-align: center;
+	}
+	.collapsebar li a {
+		display: block;
+		color: white;
+		text-decoration: none;
+		padding: 1rem
+	}
+}
+@media screen and (min-width: 960px) {
+	.imagesize {
+		
+		position: absolute;
+		width: 80%;
+		height: 80%;
+		text-align: center;
+		padding: 1rem;
+	}
+	.imagesize img {
+		max-height: 100%;
+		width: auto;
+		display: inline-block;
+	}
+
 }

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="button">
+<head>
+	<title>Angular</title>
+	<link rel="stylesheet" type="text/css" href="Main.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+	<script type="text/javascript" src="Main.js"></script>
+
+
+</head>
+
+<body ng-controller="buttonBob">
+<button ng-click="addStuff()">button</button>
+	<div ng-hide="hideMe"> 
+		I was hiding...
+	</div>
+<button ng-click="addOther()">Other Stuff</button>
+	<div ng-repeat="stuff in list">
+		
+	</div>
+
+</body>
+</html>

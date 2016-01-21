@@ -6,19 +6,13 @@ angular.module('button')
 		$scope.addStuff = function(){
 			console.log("this is stuff");
 			$scope.hideMe = !$scope.hideMe
-
+			
 		}
 		$scope.hideMe = true
-		$scope.list = [
-			{
-				name : 'this is number 1.'
-			},
-			{
-				name : 'this is number 2.'
-			},
-			{
-				name : 'this is number 4.'
-			},
-			
-		]
+		
+		
+		$scope.addStuff1 = function(){
+			$scope.hideMe1 = !$scope.hideMe1
+		}
+		$scope.hideMe1 = true
 }])

@@ -1,0 +1,23 @@
+.button1 {
+	height: 500px;
+	width: 500px;
+	font-size: 6em;
+	color: white;
+	background-color: red;
+}
+.buttonContainer {
+	text-align: center;
+}
+img {
+	max-width: 960px;
+	height: 700px;
+	/*position: fixed;
+/**/}
+.position {
+	position: fixed;
+	z-index: 1;
+	text-align: center;
+	top: 0;
+	left: 250px;
+
+}
